@@ -1,0 +1,31 @@
+@import "../../styles/index.scss";
+
+.m-app {
+  display: flex;
+  justify-content: center;
+
+  &__layout {
+    @include wrapper();
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__header {
+      display: flex;
+      flex-direction: column;
+      max-width: rem(500);
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  &__locale {
+    position: fixed;
+    bottom: rem(20);
+    right: rem(20);
+  }
+}

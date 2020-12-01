@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter Component Matches snapshot empty 1`] = `
+<div
+  className="StyledBox-sc-13pk1d4-0 gCNHBc p-filter"
+>
+  <label
+    checked={false}
+    className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 htOOow"
+    onClick={[Function]}
+  >
+    <div
+      checked={false}
+      className="StyledBox-sc-13pk1d4-0 jbIyUK StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+    >
+      <input
+        checked={false}
+        className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 fYuA-Ds"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="checkbox"
+      />
+      <span
+        checked={false}
+        className="StyledCheckBox__StyledCheckBoxToggle-sc-1dbk5ju-4 imINeg"
+      >
+        <span
+          checked={false}
+          className="StyledCheckBox__StyledCheckBoxKnob-sc-1dbk5ju-5 dVITJo"
+        />
+      </span>
+    </div>
+    <span>
+      Supported in US
+    </span>
+  </label>
+  <div
+    className="StyledBox__StyledBoxGap-sc-13pk1d4-1 kDNLiy"
+  />
+  <label
+    checked={false}
+    className="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 htOOow"
+    onClick={[Function]}
+  >
+    <div
+      checked={false}
+      className="StyledBox-sc-13pk1d4-0 jbIyUK StyledCheckBox-sc-1dbk5ju-6 hOFfoi"
+    >
+      <input
+        checked={false}
+        className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 fYuA-Ds"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="checkbox"
+      />
+      <span
+        checked={false}
+        className="StyledCheckBox__StyledCheckBoxToggle-sc-1dbk5ju-4 imINeg"
+      >
+        <span
+          checked={false}
+          className="StyledCheckBox__StyledCheckBoxKnob-sc-1dbk5ju-5 dVITJo"
+        />
+      </span>
+    </div>
+    <span>
+      Supports in Test Mode
+    </span>
+  </label>
+  <div
+    className="StyledBox__StyledBoxGap-sc-13pk1d4-1 kDNLiy"
+  />
+  <button
+    aria-label="Open Menu"
+    className="StyledButton-sc-323bzc-0 ebqXLG"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onMouseOut={[Function]}
+    onMouseOver={[Function]}
+    type="button"
+  >
+    <div
+      className="StyledBox-sc-13pk1d4-0 htdGLi"
+    >
+      <svg
+        aria-label="FormDown"
+        className="StyledIcon-ofa7kd-0 dEeaTZ"
+        viewBox="0 0 24 24"
+      >
+        <polyline
+          fill="none"
+          points="18 9 12 15 6 9"
+          stroke="#000"
+          strokeWidth="2"
+        />
+      </svg>
+      <div
+        className="StyledBox__StyledBoxGap-sc-13pk1d4-1 eBVJAG"
+      />
+      <span
+        className="StyledText-sc-1sadyjn-0 DkZvS"
+      >
+        Sort
+      </span>
+    </div>
+  </button>
+</div>
+`;

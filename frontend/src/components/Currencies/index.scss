@@ -1,0 +1,26 @@
+@import "../../styles/index.scss";
+
+.m-currencies {
+  display: grid;
+  gap: rem(15) calc(16.67% - 160px);
+  width: 100%;
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+
+  &__item {
+    @include card(true);
+    margin: rem(10);
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 478px) {
+  .m-currencies {
+    grid-template-columns: repeat(1, minmax(0px, 1fr));
+  }
+}
+
+@media only screen and (min-width: 479px) and (max-width: 768px) {
+  .m-currencies {
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+  }
+}

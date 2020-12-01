@@ -14,7 +14,7 @@ Start the dev server and navigate to `http://localhost:3000/`. The app will auto
 
 ## Build for production
 
-Run the following command to build the project. The build artifacts will be stored in the `/build` directory
+Run the following command to build the project. The build artifacts will be stored in the `/dist` directory
 
     $ npm run build
 

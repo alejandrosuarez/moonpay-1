@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Currency Component Matches snapshot empty 1`] = `
+Array [
+  <span
+    className="StyledText-sc-1sadyjn-0 DkZvS"
+    data-testid="title-code"
+  >
+    <b />
+     - 
+  </span>,
+  <div
+    className="StyledBox-sc-13pk1d4-0 iQEJEP"
+  />,
+]
+`;
+
+exports[`Currency Component Matches snapshot with props 1`] = `
+Array [
+  <span
+    className="StyledText-sc-1sadyjn-0 DkZvS"
+    data-testid="title-code"
+  >
+    <b>
+      TEST
+    </b>
+     - 
+    Test
+  </span>,
+  <div
+    className="StyledBox-sc-13pk1d4-0 iQEJEP"
+  >
+    <div
+      className="StyledBox-sc-13pk1d4-0 lklmjx"
+      size="small"
+    >
+      <span
+        className="StyledText-sc-1sadyjn-0 gJdaHr"
+        data-testid="tag-us"
+      >
+        US
+      </span>
+    </div>
+    <div
+      className="StyledBox__StyledBoxGap-sc-13pk1d4-1 eBVJAG"
+    />
+    <div
+      className="StyledBox-sc-13pk1d4-0 gZyYMm"
+      size="small"
+    >
+      <span
+        className="StyledText-sc-1sadyjn-0 gJdaHr"
+        data-testid="tag-test-mode"
+      >
+        Test Mode
+      </span>
+    </div>
+  </div>,
+]
+`;

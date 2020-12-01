@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Currencies Component Matches snapshot empty 1`] = `
+Array [
+  <h1>
+    0
+     
+    Results
+  </h1>,
+  <ul
+    className="m-currencies"
+  />,
+]
+`;
