@@ -18,6 +18,10 @@ Libraries added :
 
 ### Q) What's the command to start the frontend application locally?
 
+First of all the command to do is :
+
+    $ npm install
+
 Start the dev server and navigate to `http://localhost:8080/`. The app will automatically reload if you change any of the source files. The command to start is :
 
     $ npm start
@@ -35,6 +39,10 @@ Libraries added:
 - object-mapper: To map an object from an exchange to a generic object.
 
 ### Q) What's the command to start the backend application locally?
+
+First of all the command to do is :
+
+    $ npm install
 
 Start the dev server and navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files. The command to start is :
 
