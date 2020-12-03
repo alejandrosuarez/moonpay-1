@@ -21,3 +21,7 @@ Run the following command to build the project. The build artifacts will be stor
 ## Clean directory
 
 Run `npm run clean` to delete node_modules and build files .
+
+## Routes with param exemple
+
+GET `localhost:3000/exchange?amount=1`
